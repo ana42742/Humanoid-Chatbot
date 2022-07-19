@@ -1,0 +1,148 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule:
+  steps:
+  - intent: entrance__exam_queries
+  - action: utter_entrance__exam_queries
+ 
+- rule:
+  steps:
+  - intent: hours
+  - action: utter_hours
+ 
+- rule:
+  steps:
+  - intent: numbers
+  - action: utter_numbers
+ 
+- rule:
+  steps:
+  - intent: course
+  - action: utter_course
+ 
+- rule:
+  steps:
+  - intent: Btech
+  - action: utter_Btech
+ 
+- rule:
+  steps:
+  - intent: Mtech
+  - action: utter_Mtech
+ 
+- rule:
+  steps:
+  - intent: Ph.D.
+  - action: utter_Ph.D.
+ 
+- rule:
+  steps:
+  - intent: fees
+  - action: utter_fees
+ 
+- rule:
+  steps:
+  - intent: location
+  - action: utter_location
+ 
+- rule:
+  steps:
+  - intent: hostel
+  - action: utter_hostel
+ 
+- rule:
+  steps:
+  - intent: events
+  - action: utter_events
+ 
+- rule:
+  steps:
+  - intent: document
+  - action: utter_document
+ 
+- rule:
+  steps:
+  - intent: floor
+  - action: utter_floor
+ 
+- rule:
+  steps:
+  - intent: syllabus
+  - action: utter_syllabus
+ 
+- rule:
+  steps:
+  - intent: library
+  - action: utter_library
+ 
+- rule:
+  steps:
+  - intent: infrastructure
+  - action: utter_infrastruce
+ 
+- rule:
+  steps:
+  - intent: placement
+  - action: utter_placement
+
+- rules:
+  steps:
+  - intent: applied_sciences_hod
+  - action: utter_applied_sciences_hod
+
+- rules:
+  steps:
+  - intent: cse_hod
+  - action: utter_cse_hod
+
+- rules:
+  steps:
+  - intent: ece_hod
+  - action: utter_ece_hod
+
+- rules:
+  steps:
+  - intent: it_hod
+  - action: utter_it_hod
+
+- rules:
+  steps:
+  - intent: architecture_hod
+  - action: utter_architecture_hod
+
+- rules:
+  steps:
+  - intent: management_hod
+  - action: utter_management_hod
+
+- rules:
+  steps:
+  - intent: mech_hod
+  - action: utter_mech_hod
+
+- rules:
+  steps:
+  - intent: ai_hod
+  - action: utter_ai_hod
+
+- rules:
+  steps:
+  - intent: chancellor
+  - action: utter_chancellor
+
+- rules:
+  steps:
+  - intent: ragging
+  - action: utter_ragging
